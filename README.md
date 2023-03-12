@@ -1,1 +1,1 @@
-# wsb2023-torun
+# wsb2023-toruń
