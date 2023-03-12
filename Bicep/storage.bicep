@@ -16,7 +16,7 @@ resource storageAccount_res 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   }
   kind: 'StorageV2'
   properties: {
-    accessTier: 'Hot'
+    accessTier: 'Cool'
     allowBlobPublicAccess: true
     publicNetworkAccess: 'Enabled'
     allowSharedKeyAccess: true
