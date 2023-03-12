@@ -18,7 +18,7 @@ resource storageAccount_res 'Microsoft.Storage/storageAccounts@2021-08-01' = {
   properties: {
     accessTier: 'Hot'
     allowBlobPublicAccess: true
-    publicNetworkAccess: 'Disabled'
+    publicNetworkAccess: 'Enabled'
     allowSharedKeyAccess: true
     supportsHttpsTrafficOnly: true
     routingPreference: {
